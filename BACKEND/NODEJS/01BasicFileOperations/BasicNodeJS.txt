@@ -1,0 +1,6 @@
+// We cant run backend only with the Java script, Thats why NodeJS is used which provide JS runtime environment
+// Ryan Dahl think to create backend with NodeJ
+// He manupilated the chrome V8 engine which is written in C++\
+// He created a Wrapper called JS code surrounded to the C++ V8 engine code which makes server
+
+// First Do NPM init
