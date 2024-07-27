@@ -1,0 +1,22 @@
+Express is a framework "npm package
+
+Express manages everything receiving the request and giving the response
+
+npm i express
+
+const express = require('express')
+const app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+
+app.listen(3000)
+
+npx nodemon
+
+node script.js
+
+npm i nodemon -g
+
+nodemon script.js or npx nodemon script.js
